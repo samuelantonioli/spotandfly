@@ -44,7 +44,7 @@ Install `ffmpeg` (required for conversion)
 
 ## etc
 
-tested with python 2.7.10 on macSierra.  
+tested with python 2.7.10 and 3.7.1 on macSierra.  
 
 dependencies:
 

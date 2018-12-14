@@ -110,7 +110,7 @@ def download_youtube_ids(youtube_ids, output_folder):
     ids = filter(lambda x: not x is None, youtube_ids)
     urls = map(lambda x: 'http://www.youtube.com/watch?v={}'.format(x), ids)
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-        ydl.download(urls)
+        ydl.download(list(urls))
 
 # main
 
