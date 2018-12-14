@@ -2,6 +2,11 @@
 
 ### spotify-to-youtube-to-mp3 downloader
 
+## web interface
+
+![Spotify Downloader Web Interface](screenshot.png)
+*This is not included in this project. Please contact me if you want to use it.*
+
 ## why?
 
 You have a playlist on Spotify and want to download it?  
