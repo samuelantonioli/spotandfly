@@ -84,7 +84,7 @@ def get_youtube_id(keyword):
     search = youtube.search().list(
         q=keyword,
         part='id,snippet',
-        order='viewCount',
+        #order='viewCount', # not a good order strategy
         type='video',
         maxResults=1
     ).execute()
